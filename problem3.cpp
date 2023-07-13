@@ -36,7 +36,7 @@ vector<int> getLeftView(TreeNode<int> *root)
             q.pop();
 
             if (i == 0)
-                final.push_back(node->data);
+                final.push_back() = node->data;
 
             if (node->left)
                 q.push(node->left);
